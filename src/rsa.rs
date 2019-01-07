@@ -45,6 +45,6 @@ fn main() {
 
   // Decryption m = (c ^ d) % n
   let mut m: i128 = i128::pow(c, d as u32);
-  m = ((m % n) +n) % n;
+  m = ((m % n) +n) %n;
   println!("Original Message Sent = {} ", m);
 }
